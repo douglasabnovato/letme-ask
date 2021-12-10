@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Integração com o Firebase: autenticação, banco de dados
 - [x] Instalar o Firebase no projeto: `yarn add firebase`
 - [x] Lembrando da versão do Firebase: `"^9.6.1"`
-
+- [x] Variáveis de ambiente
 
 ## 🚀 Como executar
 
