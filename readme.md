@@ -24,6 +24,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+## 🧪 Construindo o projeto
+
+- [x] Configuração do ambiente
+- [x] Integração com o Firebase: autenticação, hosting
+- [x] Instalar o Firebase no projeto: ``
+
+
 ## 🚀 Como executar
 
 Clone o projeto e acesse a pasta do mesmo.
