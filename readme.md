@@ -16,32 +16,71 @@
 
 <br>
 
-## 🧪 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
+## 🧪 Tecnologias 
+Esse projeto foi desenvolvido com as seguintes tecnologias: 
 - [React](https://reactjs.org)
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## 🧪 Construindo o projeto
 
-#### Liftoff
-
+#### Liftoff 
+- [x] Fluxo SPA
+- [x] Conceitos React: componente, propriedade e estado
 - [x] Configuração do ambiente
 - [x] Integração com o Firebase: autenticação, banco de dados
 - [x] Instalar o Firebase no projeto: `yarn add firebase`
 - [x] Lembrando da versão do Firebase: `"^9.6.1"`
 - [x] Variáveis de ambiente
 
-#### Maximum Speed
+#### Maximum Speed 
+- [x] Tela de autenticação
+- [x] Tela de criação de sala
+- [x] Roteamento e navegação
+- [x] Autenticação com Firebase
+- [x] Contextos no React
+- [x] Contexto de autenticação
+- [x] Criar Hook de autenticação
+- [x] Criação de sala
+- [x] Recuperar o estado de autenticação
 
-- [x] Organizando tarefas de hoje
+#### In Orbit
+- [x] Criação de sala
+- [x] Entrando na sala
+- [x] Estipulando autorização
+- [x] Págin de sala
+- [x] Consumindo perguntas do Firebase
+- [x] Criando nova pergunta
+- [x] Ouvindo novas perguntas
+- [x] Criando hook useRoom
+
+
+#### Landing 
+- [x] Estrutura de perguntas 
+- [x] Criando Hook useRoom
+- [x] Página de Sala
+- [x] FUncionalidade de Like
+- [x] Remoção de pesquisa
+- [x] Encerrar sala
+
+#### Surface Exploration 
+- [x] Html e Css de destaque e respondida
+- [x] Dar destaque na pergunta
+- [x] Marcar como respondida
+- [x] Hospedando projeto
+
+#### Levar o projeto ao próximo nível
+- [x] Responsividade
+- [x] Tema dark
+- [x] Versão PWA
+- [x] Outros bancos de dados
+- [x] Styled Components
+- [x] ESLint, Prettier
+- [x] Github
 
 ## 🚀 Como executar
 
-Clone o projeto e acesse a pasta do mesmo.
-
+Clone o projeto e acesse a pasta do mesmo. 
 ```bash
 $ git clone https://github.com/douglasabnovato/letme-ask
 $ cd letme-ask
@@ -50,34 +89,26 @@ $ cd letme-ask
 Para iniciá-lo, siga os passos abaixo:
 ```bash
 # Instalar as dependências
-$ yarn
-
+$ yarn 
 # Iniciar o projeto
 $ yarn start
 ```
-O app estará disponível no seu browser pelo endereço http://localhost:3000.
-
+O app estará disponível no seu browser pelo endereço http://localhost:3000. 
 Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
 
-## 💻 Projeto
-
+## 💻 Projeto 
 Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.  
-
-
-## 🔖 Layout
-
+ 
+## 🔖 Layout 
 Você pode visualizar o layout do projeto através do link abaixo:
 
-- [Layout Web](https://www.figma.com/community/file/1009824839797878169/Letmeask) 
-
+- [Layout Web](https://www.figma.com/community/file/1009824839797878169/Letmeask)  
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 
 ## 📝 License
-
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---  
 
-Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
- 
+Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/) 
 Fonte do projeto Por Rocketseat no [Next Level Week Together](https://nextlevelweek.com/)
