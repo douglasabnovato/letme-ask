@@ -35,7 +35,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Variáveis de ambiente
 
 #### Maximum Speed 
-- [x] Tela de autenticação: `yarn add node-sass@^5.0.0` 
+- [x] Sass: `yarn add node-sass@^5.0.0` 
+- [x] Google Fonts: Roboto e Poppins 
+- [x] Tela de autenticação
 - [x] Experimentação do banco de dados do Firebase
 - [x] Tela de criação de sala
 - [x] Roteamento e navegação
