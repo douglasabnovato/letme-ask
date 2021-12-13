@@ -28,13 +28,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Fluxo SPA
 - [x] Conceitos React: componente, propriedade e estado
 - [x] Configuração do ambiente
+- [x] Criado projeto com `yarn create react-app letme-ask --template typescript`
 - [x] Integração com o Firebase: autenticação, banco de dados
 - [x] Instalar o Firebase no projeto: `yarn add firebase`
 - [x] Lembrando da versão do Firebase: `"^9.6.1"`
 - [x] Variáveis de ambiente
 
 #### Maximum Speed 
-- [x] Tela de autenticação
+- [x] Tela de autenticação 
+- [x] Experimentação do banco de dados do Firebase
 - [x] Tela de criação de sala
 - [x] Roteamento e navegação
 - [x] Autenticação com Firebase
@@ -53,8 +55,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Criando nova pergunta
 - [x] Ouvindo novas perguntas
 - [x] Criando hook useRoom
-
-
+ 
 #### Landing 
 - [x] Estrutura de perguntas 
 - [x] Criando Hook useRoom
@@ -70,13 +71,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Hospedando projeto
 
 #### Levar o projeto ao próximo nível
-- [x] Responsividade
-- [x] Tema dark
-- [x] Versão PWA
-- [x] Outros bancos de dados
-- [x] Styled Components
-- [x] ESLint, Prettier
-- [x] Github
+- Responsividade
+- Tema dark
+- Versão PWA
+- Outros bancos de dados
+- Styled Components
+- ESLint, Prettier
+- Github
 
 ## 🚀 Como executar
 
