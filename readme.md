@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Variáveis de ambiente
 
 #### Maximum Speed 
-- [x] Tela de autenticação 
+- [x] Tela de autenticação: `yarn add node-sass@^5.0.0` 
 - [x] Experimentação do banco de dados do Firebase
 - [x] Tela de criação de sala
 - [x] Roteamento e navegação
