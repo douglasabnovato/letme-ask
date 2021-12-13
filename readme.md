@@ -38,9 +38,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Sass: `yarn add node-sass@^5.0.0` 
 - [x] Google Fonts: Roboto e Poppins 
 - [x] Tela de autenticação: estrutura
-- [x] Tela de autenticação: estilização com .scss
-- [x] Experimentação do banco de dados do Firebase
+- [x] Tela de autenticação: estilização com .scss, componentização do botão
 - [x] Tela de criação de sala
+- [x] Experimentação do banco de dados do Firebase
 - [x] Roteamento e navegação
 - [x] Autenticação com Firebase
 - [x] Contextos no React
