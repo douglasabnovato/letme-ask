@@ -12,10 +12,8 @@ export function Home(){
 
     const history = useNavigate();
 
-    function navigateToNewRoom(){
-
-        history("/rooms/news")
-
+    function navigateToNewRoom(){ 
+        history("/rooms/new") 
     }
 
     return(
