@@ -41,6 +41,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Tela de autenticação: estilização com .scss, componentização do botão
 - [x] Tela de criação de sala
 - [x] Roteamento e navegação react-router: `yarn add react-router-dom` e `yarn add @types/react-router-dom -D`
+- [x] Mudança em React-Router-Dom: ao invés de `component={Home}`, é `element={<Home />}`
 - [x] Experimentação do banco de dados do Firebase
 - [x] Autenticação com Firebase
 - [x] Contextos no React
