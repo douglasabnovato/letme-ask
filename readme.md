@@ -42,6 +42,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Tela de criação de sala
 - [x] Roteamento e navegação react-router: `yarn add react-router-dom` e `yarn add @types/react-router-dom -D`
 - [x] Mudança em React-Router-Dom: ao invés de `component={Home}`, é `element={<Home />}`
+- [x] Navegação com Hook: ao invés de `useHistory`, é `useNavigate`
 - [x] Experimentação do banco de dados do Firebase
 - [x] Autenticação com Firebase
 - [x] Contextos no React
