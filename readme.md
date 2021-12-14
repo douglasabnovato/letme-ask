@@ -46,8 +46,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Roteamento e Navegação
 - [x] Experimentação do banco de dados do Firebase
 - [x] Autenticação com Firebase
-- [x] Contextos no React
-- [x] Contexto de autenticação
+- [x] Contextos no React: uso de hook useContext
+- [x] Contexto de autenticação para armazenar informações 
 - [x] Criar Hook de autenticação
 - [x] Criação de sala
 - [x] Recuperar o estado de autenticação

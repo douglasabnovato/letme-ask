@@ -1,20 +1,21 @@
-import { useNavigate } from "react-router-dom"
-
+import { useNavigate } from "react-router-dom" 
 import illustrationImg from "../assets/illustration.svg"
 import logoImg from "../assets/logo.svg"
 import googleIconImg from "../assets/google-icon.svg"
 
-import { Button } from "../components/Button"
+import { Button } from "../components/Button" 
 
 import "../styles/auth.scss"
 
-export function Home(){
+export function Home(){ 
 
-    const history = useNavigate(); 
-    
+    const history = useNavigate();  
+
     function handleCreateRoom(){ 
-        history("/rooms/new") 
-    }
+        
+        history("/rooms/new")
+        
+    } 
 
     return(
         <div id="page-auth">
@@ -23,7 +24,7 @@ export function Home(){
                 <strong>Crie salas de Q&amp;A ao-vivo</strong>
                 <p>Tire as dúvidas da sua audiência em tempo-real</p>
             </aside>
-            <main>
+            <main> 
                 <div className="main-content">
                     <img src={logoImg} alt="Letmeask" />
                     <button className="create-room" onClick={handleCreateRoom}>
