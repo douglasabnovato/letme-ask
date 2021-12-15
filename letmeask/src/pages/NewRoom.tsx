@@ -1,16 +1,11 @@
 import { useContext } from "react"
-import { Link } from "react-router-dom"
-
+import { Link } from "react-router-dom" 
 import illustrationImg from "../assets/illustration.svg"
-import logoImg from "../assets/logo.svg" 
-
-import { Button } from "../components/Button"
-
+import logoImg from "../assets/logo.svg"  
+import { Button } from "../components/Button" 
 import "../styles/auth.scss" 
 
-export function NewRoom(){
- 
-
+export function NewRoom(){ 
     return(
         <div id="page-auth">
             <aside>

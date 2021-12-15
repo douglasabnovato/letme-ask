@@ -1,20 +1,15 @@
 import { useNavigate } from "react-router-dom" 
 import illustrationImg from "../assets/illustration.svg"
 import logoImg from "../assets/logo.svg"
-import googleIconImg from "../assets/google-icon.svg"
-
-import { Button } from "../components/Button" 
-
+import googleIconImg from "../assets/google-icon.svg" 
+import { Button } from "../components/Button"  
 import "../styles/auth.scss"
 
 export function Home(){ 
 
     const history = useNavigate();  
-
-    function handleCreateRoom(){ 
-        
-        history("/rooms/new")
-        
+    function handleCreateRoom(){  
+        history("/rooms/new") 
     } 
 
     return(
