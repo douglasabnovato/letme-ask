@@ -105,6 +105,8 @@ Lembrando que será necessário criar uma conta no [Firebase](https://firebase.g
 
 ## 💻 Projeto 
 Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.  
+
+E pode ser adaptado a outras situações comerciais.
  
 ## 🔖 Layout 
 Você pode visualizar o layout do projeto através do link abaixo:
