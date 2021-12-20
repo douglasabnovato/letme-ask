@@ -1,4 +1,4 @@
-import { FormEvent } from "react"
+import { FormEvent, useState } from "react"
 import { Link } from "react-router-dom"  
 
 import illustrationImg from "../assets/illustration.svg"
@@ -10,10 +10,12 @@ import "../styles/auth.scss"
 
 export function NewRoom(){ 
 
-    const {user} = useAuth()
+    const [newRoom, setNewRoom] = useState("")
 
     async function handleCreateRoom(event: FormEvent){
         event.preventDefault()
+
+        console.log(newRoom)
     }
 
     return(
@@ -25,13 +27,13 @@ export function NewRoom(){
             </aside>
             <main> 
                 <div className="main-content">
-                    <img src={logoImg} alt="Letmeask" />
-                    <h1>{user?.name}</h1> 
+                    <img src={logoImg} alt="Letmeask" /> 
                     <h2>Criar uma nova sala</h2>
                     <form onSubmit={handleCreateRoom}>
                         <input 
                             type="text" 
                             placeholder="Nome da sala"
+                            onChange={event => setNewRoom(event.target.value)}
                         />
                         <Button type="submit" >Criar sala</Button>
                     </form>
