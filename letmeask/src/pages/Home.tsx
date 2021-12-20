@@ -10,19 +10,15 @@ import { useAuth } from "../hooks/useAuth"
 
 import "../styles/auth.scss"
 
-export function Home(){ 
-
-    const history = useNavigate();  
-
+export function Home(){  
+    const history = useNavigate();   
     const { user, signInWithGoogle } = useAuth()
 
-    async function handleCreateRoom(){ 
-        
+    async function handleCreateRoom(){  
         if(!user){
             await signInWithGoogle()
-        }
-
-        history("/rooms/new") 
+        } 
+        history("/rooms/new")  
     } 
 
     return(
