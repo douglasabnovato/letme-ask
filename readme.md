@@ -65,7 +65,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ ] Estrutura de perguntas 
 - [ ] Criando Hook useRoom
 - [ ] Página de Sala
-- [ ] FUncionalidade de Like
+- [ ] Funcionalidade de Like
 - [ ] Remoção de pesquisa
 - [ ] Encerrar sala
 
