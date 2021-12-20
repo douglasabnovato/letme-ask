@@ -52,28 +52,28 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ ] Criar Hook de autenticação 
 
 #### In Orbit
-- [x] Criação de sala
-- [x] Entrando na sala
-- [x] Estipulando autorização
-- [x] Págin de sala
-- [x] Consumindo perguntas do Firebase
-- [x] Criando nova pergunta
-- [x] Ouvindo novas perguntas
-- [x] Criando hook useRoom
+- [ ] Criação de sala
+- [ ] Entrando na sala
+- [ ] Estipulando autorização
+- [ ] Págin de sala
+- [ ] Consumindo perguntas do Firebase
+- [ ] Criando nova pergunta
+- [ ] Ouvindo novas perguntas
+- [ ] Criando hook useRoom
  
 #### Landing 
-- [x] Estrutura de perguntas 
-- [x] Criando Hook useRoom
-- [x] Página de Sala
-- [x] FUncionalidade de Like
-- [x] Remoção de pesquisa
-- [x] Encerrar sala
+- [ ] Estrutura de perguntas 
+- [ ] Criando Hook useRoom
+- [ ] Página de Sala
+- [ ] FUncionalidade de Like
+- [ ] Remoção de pesquisa
+- [ ] Encerrar sala
 
 #### Surface Exploration 
-- [x] Html e Css de destaque e respondida
-- [x] Dar destaque na pergunta
-- [x] Marcar como respondida
-- [x] Hospedando projeto
+- [ ] Html e Css de destaque e respondida
+- [ ] Dar destaque na pergunta
+- [ ] Marcar como respondida
+- [ ] Hospedando projeto
 
 #### Levar o projeto ao próximo nível
 - Responsividade
