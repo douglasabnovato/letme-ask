@@ -47,10 +47,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Experimentação do banco de dados do Firebase
 - [x] Autenticação com Firebase
 - [x] Contextos no React: uso de hook useContext
-- [x] Contexto de autenticação para armazenar informações 
-- [x] Criar Hook de autenticação
-- [x] Criação de sala
-- [x] Recuperar o estado de autenticação
+- [x] Contexto de autenticação para armazenar informações (useContext)
+- [x] Recuperar o estado de autenticação: sair da página ou apertar F5
+- [ ] Criar Hook de autenticação 
 
 #### In Orbit
 - [x] Criação de sala
