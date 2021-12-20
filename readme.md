@@ -49,7 +49,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Contextos no React: uso de hook useContext
 - [x] Contexto de autenticação para armazenar informações (useContext)
 - [x] Recuperar o estado de autenticação: sair da página ou apertar F5
-- [ ] Criar Hook de autenticação 
+- [x] Criar Hook de autenticação 
 
 #### In Orbit
 - [ ] Criação de sala
