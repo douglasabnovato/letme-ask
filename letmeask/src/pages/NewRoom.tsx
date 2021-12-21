@@ -4,19 +4,17 @@ import { Link } from "react-router-dom"
 import illustrationImg from "../assets/illustration.svg"
 import logoImg from "../assets/logo.svg"  
 import { Button } from "../components/Button" 
-import { useAuth } from "../hooks/useAuth"
+//import { useAuth } from "../hooks/useAuth"
 
 import "../styles/auth.scss" 
 
 export function NewRoom(){ 
 
-    const { user } = useAuth()
-
-    const [newRoom, setNewRoom] = useState("")
+    //const { user } = useAuth() 
+    const [newRoom, setNewRoom] = useState("") 
 
     async function handleCreateRoom(event: FormEvent){
-        event.preventDefault()
-
+        event.preventDefault() 
         console.log(newRoom)
     }
 
