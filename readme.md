@@ -50,6 +50,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Contexto de autenticação para armazenar informações (useContext)
 - [x] Recuperar o estado de autenticação: sair da página ou apertar F5
 - [x] Criar Hook de autenticação 
+- [x] Atualização de dependência: `npx browserslist@latest --update-db`
 
 #### In Orbit
 - [ ] Criação de sala
