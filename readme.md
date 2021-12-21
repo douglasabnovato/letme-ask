@@ -53,7 +53,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Atualização de dependência: `npx browserslist@latest --update-db`
 
 #### In Orbit
-- [ ] Criação de sala: usando informação do input
+- [x] Criação de sala: usando informação do input.
+- [x] Redirecionamento com useNavigate após criação de sala.
 - [ ] Entrando na sala
 - [ ] Estipulando autorização
 - [ ] Págin de sala
