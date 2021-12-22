@@ -55,8 +55,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 #### In Orbit
 - [x] Criação de sala: usando informação do input.
 - [x] Redirecionamento por rota: usar useNavigate.
-- [ ] Entrando na sala
-- [ ] Estipulando autorização
+- [x] Entrando na sala
+- [x] Estipulando autorização: construíndo as especificações em .json
 - [ ] Págin de sala
 - [ ] Consumindo perguntas do Firebase
 - [ ] Criando nova pergunta
