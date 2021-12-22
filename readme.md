@@ -54,7 +54,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 #### In Orbit
 - [x] Criação de sala: usando informação do input.
-- [x] Redirecionamento com useNavigate após criação de sala.
+- [x] Redirecionamento por rota: usar useNavigate.
 - [ ] Entrando na sala
 - [ ] Estipulando autorização
 - [ ] Págin de sala
