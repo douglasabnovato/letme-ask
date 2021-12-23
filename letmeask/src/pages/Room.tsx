@@ -60,9 +60,22 @@ export function Room(){
                     <span>4 Perguntas</span>
                 </div>
                 <form onSubmit={handleSendQuestion}>
-                    <textarea placeholder="O que você quer perguntar?" ></textarea>
+                    <textarea 
+                        placeholder="O que você quer perguntar?" 
+                        onChange={event => setNewQuestion(event.target.value)}
+                        value={newQuestion}
+                    ></textarea>
                     <div className="form-footer">
-                        <span>Para enviar uma pergunta, <button>faça seu login</button>.</span>
+                        { user ? (
+                            <div className="user-info">
+                                <img src={user.avatar} alt={user.name} />
+                                <span>{user.name}</span>
+                            </div>
+                        ) : (
+                            <span>Para enviar uma pergunta, <button>faça seu login</button>.</span>
+                        )}
+
+                        
                         <Button type="submit" disabled={!user}>Enviar Pergunta</Button>
                     </div>
                 </form>
