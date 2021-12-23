@@ -57,8 +57,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Redirecionamento por rota: usar useNavigate.
 - [x] Entrando na sala
 - [x] Estipulando autorização: construíndo as especificações em .json
-- [ ] Função para copiar código no RoomCode
-- [ ] Págin de sala
+- [x] Função para copiar código no RoomCode
+- [ ] Pegar o código da sala vindo na url
+- [ ] Página de sala
 - [ ] Consumindo perguntas do Firebase
 - [ ] Criando nova pergunta
 - [ ] Ouvindo novas perguntas
