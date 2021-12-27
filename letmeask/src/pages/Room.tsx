@@ -2,6 +2,8 @@ import { FormEvent, useState } from "react"
 import { useParams } from "react-router-dom"
 
 import logoImg from "../assets/logo.svg"
+import avatarImg from "../assets/avatar-user.jpeg"
+
 import { Button } from "../components/Button"
 import { RoomCode } from "../components/RoomCode"
 import { useAuth } from "../hooks/useAuth"
@@ -72,10 +74,12 @@ export function Room(){
                                 <span>{user.name}</span>
                             </div>
                         ) : (
-                            <span>Para enviar uma pergunta, <button>faça seu login</button>.</span>
-                        )}
-
-                        
+                            //<span>Para enviar uma pergunta, <button>faça seu login</button>.</span>
+                            <div className="user-info">
+                                <img src={avatarImg} alt="avatar user"/>
+                                <span>Douglas Novato</span>
+                            </div>
+                        )} 
                         <Button type="submit" disabled={!user}>Enviar Pergunta</Button>
                     </div>
                 </form>
