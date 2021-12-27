@@ -59,9 +59,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Estipulando autorização: construíndo as especificações em .json
 - [x] Função para copiar código no RoomCode
 - [x] Pegar o código da sala vindo na url
+- [x] Criando nova pergunta 
+- [x] As três rotas dinâmicas
 - [ ] Página de sala (hmtl + css)
 - [ ] Consumindo perguntas do Firebase: e exibir em tela
-- [x] Criando nova pergunta
 - [ ] Ouvindo novas perguntas
 - [ ] Criando hook useRoom
  
