@@ -62,7 +62,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Criando nova pergunta 
 - [x] As três rotas dinâmicas
 - [ ] Página de sala (hmtl + css)
-- [x] Consumindo perguntas do Firebase: e exibir em tela
+- [x] Consumindo perguntas do Firebase: trazendo as perguntas
 - [ ] Ouvindo novas perguntas
 - [ ] Criando hook useRoom
  
