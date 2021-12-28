@@ -61,12 +61,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Pegar o código da sala vindo na url
 - [x] Criando nova pergunta 
 - [x] As três rotas dinâmicas
-- [ ] Página de sala (hmtl + css)
+- [x] Página de sala (hmtl + css)
 - [x] Consumindo perguntas do Firebase: trazendo as perguntas
-- [ ] Ouvindo novas perguntas
-- [ ] Criando hook useRoom
+- [x] Ouvindo novas perguntas: um teste com `{JSON.stringify(questions)}`
  
 #### Landing 
+- [ ] Criando hook useRoom
 - [ ] Estrutura de perguntas 
 - [ ] Criando Hook useRoom
 - [ ] Página de Sala
