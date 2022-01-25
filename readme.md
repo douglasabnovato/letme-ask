@@ -81,13 +81,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ ] Hospedando projeto
 
 #### Levar o projeto ao próximo nível
-- Responsividade
-- Tema dark
-- Versão PWA
-- Outros bancos de dados
-- Styled Components
-- ESLint, Prettier
-- Github
+- Responsividade: youtube rocketseat
+- Tema dark/light: youtube rocketseat 
+- Versão PWA: create-react-app para web parecer app
+- Outros bancos de dados: supabase caso escalonar
+- Styled Components: sass, sendo uma blioteca css
+- ESLint, Prettier: padrões de código
+- Github: readme detalhado com tecnologias e features
 
 ## 🚀 Como executar
 
