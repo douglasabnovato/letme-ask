@@ -66,13 +66,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Ouvindo novas perguntas: um teste com `{JSON.stringify(questions)}`
  
 #### Landing 
-- [ ] Criando hook useRoom
-- [ ] Estrutura de perguntas 
-- [ ] Criando Hook useRoom
-- [ ] Página de Sala
-- [ ] Funcionalidade de Like
-- [ ] Remoção de pesquisa
-- [ ] Encerrar sala
+- [x] Criando hook useRoom
+- [x] Estrutura de perguntas 
+- [x] Criando Hook useRoom
+- [x] Página de Sala
+- [x] Funcionalidade de Like
+- [x] Remoção de pesquisa: pacote react-modal para construir modal de exclusão
+- [x] Encerrar sala
 
 #### Surface Exploration 
 - [ ] Html e Css de destaque e respondida
