@@ -75,10 +75,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Encerrar sala
 
 #### Surface Exploration 
-- [ ] Html e Css de destaque e respondida
-- [ ] Dar destaque na pergunta
-- [ ] Marcar como respondida
-- [ ] Hospedando projeto
+- [x] Html e Css de destaque e respondida
+- [x] Dar destaque na pergunta
+- [x] Marcar como respondida
+- [x] Hospedando projeto: Firebase Hosting
 
 #### Levar o projeto ao próximo nível
 - Responsividade: youtube rocketseat
