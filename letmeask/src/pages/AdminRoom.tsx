@@ -1,4 +1,4 @@
-import { useHistory, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 import logoImg from '../assets/images/logo.svg';
 import deleteImg from '../assets/images/delete.svg';
@@ -20,7 +20,7 @@ type RoomParams = {
 
 export function AdminRoom() {
   // const { user } = useAuth();
-  const history = useHistory()
+  const history = useNavigate()
   const params = useParams<RoomParams>();
   const roomId = params.id;
 
@@ -29,9 +29,8 @@ export function AdminRoom() {
   async function handleEndRoom() {
     await database.ref(`rooms/${roomId}`).update({
       endedAt: new Date(),
-    })
-
-    history.push('/');
+    }) 
+    history('/');
   }
 
   async function handleDeleteQuestion(questionId: string) {

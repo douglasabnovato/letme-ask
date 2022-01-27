@@ -1,4 +1,4 @@
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { FormEvent, useState } from 'react';
 
 import illustrationImg from '../assets/images/illustration.svg'
@@ -13,7 +13,7 @@ import { useAuth } from '../hooks/useAuth';
 import '../styles/auth.scss';
 
 export function Home() {
-  const history = useHistory();
+  const history = useNavigate();
   const { user, signInWithGoogle } = useAuth()
   const [roomCode, setRoomCode] = useState('');
 
@@ -22,7 +22,7 @@ export function Home() {
       await signInWithGoogle()
     }
 
-    history.push('/rooms/new');
+    history('/rooms/new');
   }
 
   async function handleJoinRoom(event: FormEvent) {
@@ -44,7 +44,7 @@ export function Home() {
       return;
     }
 
-    history.push(`/rooms/${roomCode}`);
+    history(`/rooms/${roomCode}`);
   }
 
   return (
