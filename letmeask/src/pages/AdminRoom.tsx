@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from 'react-router-dom'
+import { useHistory, useParams } from 'react-router-dom'
 
 import logoImg from '../assets/images/logo.svg';
 import deleteImg from '../assets/images/delete.svg';
@@ -7,7 +7,8 @@ import answerImg from '../assets/images/answer.svg';
 
 import { Button } from '../components/Button';
 import { Question } from '../components/Question';
-import { RoomCode } from '../components/RoomCode'; 
+import { RoomCode } from '../components/RoomCode';
+// import { useAuth } from '../hooks/useAuth';
 import { useRoom } from '../hooks/useRoom';
 import { database } from '../services/firebase';
 
@@ -17,8 +18,9 @@ type RoomParams = {
   id: string;
 }
 
-export function AdminRoom() { 
-  const history = useNavigate()
+export function AdminRoom() {
+  // const { user } = useAuth();
+  const history = useHistory()
   const params = useParams<RoomParams>();
   const roomId = params.id;
 
@@ -29,7 +31,7 @@ export function AdminRoom() {
       endedAt: new Date(),
     })
 
-    history('/');
+    history.push('/');
   }
 
   async function handleDeleteQuestion(questionId: string) {

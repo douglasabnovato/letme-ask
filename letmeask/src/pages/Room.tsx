@@ -14,7 +14,7 @@ import '../styles/room.scss';
 
 
 type RoomParams = {
-  id: string | undefined;
+  id: string;
 }
 
 export function Room() {
@@ -94,7 +94,8 @@ export function Room() {
             ) }
             <Button type="submit" disabled={!user}>Enviar pergunta</Button>
           </div>
-        </form> 
+        </form>
+
         <div className="question-list">
           {questions.map(question => {
             return (
