@@ -17,6 +17,7 @@
 <br>
 
 ## 🧪 Tecnologias 
+
 Esse projeto foi desenvolvido com as seguintes tecnologias: 
 - [React](https://reactjs.org)
 - [Firebase](https://firebase.google.com/)
@@ -25,6 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🧪 Construindo o projeto
 
 #### Liftoff 
+
 - [x] Fluxo SPA
 - [x] Conceitos React: componente, propriedade e estado
 - [x] Configuração do ambiente
@@ -35,6 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Variáveis de ambiente
 
 #### Maximum Speed 
+
 - [x] Sass: `yarn add node-sass@^5.0.0` 
 - [x] Google Fonts: Roboto e Poppins 
 - [x] Tela de autenticação: estrutura
@@ -53,6 +56,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Atualização de dependência: `npx browserslist@latest --update-db`
 
 #### In Orbit
+
 - [x] Criação de sala: usando informação do input.
 - [x] Redirecionamento por rota: usar useNavigate.
 - [x] Entrando na sala
@@ -66,6 +70,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Ouvindo novas perguntas: um teste com `{JSON.stringify(questions)}`
  
 #### Landing 
+
 - [x] Criando hook useRoom
 - [x] Estrutura de perguntas 
 - [x] Criando Hook useRoom
@@ -74,54 +79,61 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] Remoção de pesquisa: pacote react-modal para construir modal de exclusão
 - [x] Encerrar sala
 
-#### Surface Exploration 
+#### Surface Exploration
+
 - [x] Html e Css de destaque e respondida
 - [x] Dar destaque na pergunta
 - [x] Marcar como respondida
 - [x] Hospedando projeto: Firebase Hosting
 
 #### Levar o projeto ao próximo nível
-- Responsividade: youtube rocketseat
-- Tema dark/light: youtube rocketseat 
-- Versão PWA: create-react-app para web parecer app
-- Outros bancos de dados: supabase caso escalonar
-- Styled Components: sass, sendo uma blioteca css
-- ESLint, Prettier: padrões de código
-- Github: readme detalhado com tecnologias e features
+  
+- [ ] 1. responsividade
+- [ ] 2. acessibilidade
+- [ ] 3. modo dark / light
+- [ ] 4. variação de cores
+- [ ] 5. hospedar aplicação
+- [ ] 6. versão PWA: create-react-app para web parecer app
+- [ ] 7. styled components - sass
+- [ ] 8. eSLint e prettier - padrões de código
+
+---
 
 ## 🚀 Como executar
 
 Clone o projeto e acesse a pasta do mesmo. 
 ```bash
-$ git clone https://github.com/douglasabnovato/letme-ask
-$ cd letme-ask
+$ git clone https://github.com/douglasabnovato/letmeask
+$ cd letmeask
 ```
 
 Para iniciá-lo, siga os passos abaixo:
 ```bash
 # Instalar as dependências
-$ yarn 
+$ yarn || npm install
 # Iniciar o projeto
-$ yarn start
+$ yarn start || npm start
 ```
 O app estará disponível no seu browser pelo endereço http://localhost:3000. 
 Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
 
 ## 💻 Projeto 
+
 Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.  
 
 E pode ser adaptado a outras situações comerciais.
  
 ## 🔖 Layout 
+
 Você pode visualizar o layout do projeto através do link abaixo:
 
 - [Layout Web](https://www.figma.com/community/file/1009824839797878169/Letmeask)  
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 
 ## 📝 License
+
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---  
 
 Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/).
-Fonte do projeto Por Rocketseat no [Next Level Week Together](https://nextlevelweek.com/)
