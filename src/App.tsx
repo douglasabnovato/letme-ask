@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import { Home } from "./pages/Home";
 import { NewRoom } from "./pages/NewRoom";
@@ -11,13 +11,13 @@ function App() {
   return (
     <BrowserRouter>
       <AuthContextProvider>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/rooms/new" element={<NewRoom/>} />
-          <Route path="/rooms/:id" element={<Room/>} />
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="/rooms/new" component={NewRoom} />
+          <Route path="/rooms/:id" component={Room} />
 
-          <Route path="/admin/rooms/:id" element={<AdminRoom/>} />
-        </Routes>
+          <Route path="/admin/rooms/:id" component={AdminRoom} />
+        </Switch>
       </AuthContextProvider>
     </BrowserRouter>
   );
