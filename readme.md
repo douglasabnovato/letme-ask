@@ -149,4 +149,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/).
 
-Fonte do projeto: [NLW Together Edição 6 na trilha Mission: ReactJS da Rocketseat](https://github.com/maykbrito) 
+Fonte do projeto: [NLW Together Edição 6 na trilha Mission: ReactJS da Rocketseat](https://www.rocketseat.com.br/) 
